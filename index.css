@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.header1 {
+    box-shadow: 0px 3px 30px #7B7B7B29;
+    padding: 15px 100px;
+    padding-top: 10px;
+
+}
+
+.plus {
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.yet {
+    text-decoration: none;
+
+
+}
+
+.plus1 {
+    position: absolute;
+    top: 90px;
+    right: 60px;
+}
+
+span {
+    font: normal bold 40px/49px Inter;
+    letter-spacing: 0px;
+    color: #424242;
+
+}
+
+.container2 {
+    margin-top: 50px;
+    margin-left: 916px;
+    display: flex;
+
+
+}
+
+.text {
+    color: #00A5EC;
+    font-size: 29px;
+
+}
+
+.test7 {
+    font-size: 25px;
+}
+
+/* Create cards */
+
+.f-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    box-shadow: 6px 6px 10px 10px rgb(188, 183, 183);
+    cursor: pointer;
+}
+
+.card {
+    width: 340px;
+    height: 300px;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid rgb(239, 235, 235);
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.card1 {
+    margin-right: 20px;
+}
+
+.wait {
+    font-weight: bold;
+    font-size: 23px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #00A5EC;
+    position: relative;
+    top: 10px;
+}
+
+hr {
+    border: 1px solid #EDEDED;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.rome {
+    display: flex;
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.card2 {
+    margin-right: 20px;
+}
+
+.rome1 {
+    display: flex;
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+
+.card3 {
+    margin-right: 20px;
+}
+
+.rome2 {
+    display: flex;
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+.card4 {
+    margin-right: 20px;
+}
+
+.rome3 {
+    display: flex;
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+.card5 {
+    margin-right: 20px;
+}
+
+.rome4 {
+    display: flex;
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+input[type="checkbox"]:hover {
+    color: #c51c1c;
+    background-color: #c92929;
+}
+
+input[type="checkbox"] {
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+input:checked+label {
+    color: #C2C2C2;
+    text-decoration: line-through;
+}
+
+
+/* 2nd page design */
+
+.add-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    width: 540px;
+    height: 250px;
+    background-color: white;
+    border: 2px solid rgb(236, 233, 233);
+    border-radius: 10px;
+
+}
+
+.text {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.icon {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 25px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin-top: 15px;
+    margin-left: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#done {
+    display: flex;
+    flex-wrap: wrap;
+    width: 10rem;
+    background-color: #00A5EC;
+    color: white;
+    font-size: large;
+    margin: 10px 330px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* /* third page design */
+
+
+
+.test {
+    display: flex;
+    justify-content: left;
+    box-shadow: 5px 5px 20px #9c9c9c29;
+    opacity: 1;
+    padding: 13px 140px;
+}
+
+.ndlayer {
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 20px;
+}
+.fog{
+    position: absolute;
+    left: 300px;
+    top: 110px;
+}
+
+.fog1 {
+    
+    position: absolute;
+    right: 200px;
+    top: 110px;
+}
+
+.add1 {
+    font-size: 20px;
+}
+
+.add {
+    font-size: 20px;
+}
+
+.counter1 {
+    color: black;
+    text-decoration: none;
+}
+
+.counter {
+    color: #00A5EC;
+    text-decoration: none;
+}
+
+.flex-cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    box-shadow: 2px 4px 6px gray;
+}
+
+.pack {
+    text-align: center;
+    padding-top: 10px;
+    color: #00A5EC;
+
+}
+
+.rare {
+    text-align: left;
+    position: absolute;
+    top: 80px;
+
+}
+
+@media screen and (min-width:320px) and (max-width: 390px) {
+    .test {
+        justify-content: center;
+        align-items: center;
+    }
+    .fog{
+       position: absolute;
+       left: 20px;
+       top: 90px;
+
+    }
+    .fog1{
+        position: absolute;
+        right: 20px;
+        top: 90px;
+    }
+    
+    .flex-cards{
+        position: absolute;
+        left: 30px;
+        height: 220px;
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    .add-container{
+        position: absolute;
+        left: 30px;
+        height: 220px;
+        width: 300px;
+        flex-wrap: wrap;
+    }
+   #done{
+       margin: 7px 0px 0px 100px;
+        
+   }
+}
+@media screen and (min-width:390px) and (max-width: 500px) {
+    .test {
+        justify-content: center;
+        align-items: center;
+    }
+    .fog{
+       position: absolute;
+       left: 20px;
+       top: 90px;
+
+    }
+    .fog1{
+        position: absolute;
+        right: 20px;
+        top: 90px;
+    }
+    
+    .flex-cards{
+        position: absolute;
+        left: 90px;
+        height: 220px;
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    .add-container{
+        position: absolute;
+        left: 90px;
+        height: 220px;
+        width: 300px;
+    }
+   #done{
+       margin: 7px 0px 0px 100px;
+        
+   }
+}
+@media screen and (min-width:500px) and (max-width: 650px) {
+    .test {
+        justify-content: center;
+        align-items: center;
+    }
+    .fog{
+       position: absolute;
+        left: 50px;
+        top: 90px;
+
+    }
+    .fog1{
+        position: absolute;
+        right: 50px;
+        top: 90px;
+    }
+    
+    .flex-cards{
+        position: absolute;
+        left: 70px;
+        height: 220px;
+        width: 460px;
+        
+    }
+    .add-container{
+        position: absolute;
+        left: 70px;
+        height: 220px;
+        width: 460px;
+    }
+   #done{
+       margin: 7px 0px 0px 280px;
+        
+   }
+    
+}
+@media screen and (min-width:650px) and (max-width: 800px) {
+    .test {
+        justify-content: center;
+        align-items: center;
+    }
+    .fog{
+        position: absolute;
+         left: 50px;
+         top: 90px;
+ 
+     }
+     .fog1{
+         position: absolute;
+         right: 50px;
+         top: 90px;
+     }
+    .flex-cards{
+        position: absolute;
+        left: 120px;
+        height: 250px;
+        width: 500px;
+        
+    }
+    .add-container{
+        position: absolute;
+        left: 120px;
+        height: 250px;
+        width: 500px;
+    }
+   #done{
+       margin: 7px 0px 0px 300px;
+        
+   }
+}
+
+@media screen and (min-width:800px) and (max-width: 1000px) {
+    .test {
+        justify-content: center;
+        align-items: center;
+    }
+    .fog{
+        position: absolute;
+         left: 50px;
+         top: 90px;
+ 
+     }
+     .fog1{
+         position: absolute;
+         right: 50px;
+         top: 90px;
+     }
+    .flex-cards{
+        position: absolute;
+        left: 200px;
+        height: 250px;
+        width: 500px;
+        
+    }
+    .add-container{
+        position: absolute;
+        left: 200px;
+        height: 250px;
+        width: 500px;
+    }
+   #done{
+       margin: 7px 0px 0px 300px;
+        
+   }
+}
+
